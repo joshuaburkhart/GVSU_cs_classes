@@ -1,0 +1,229 @@
+<!DOCTYPE html PUBLIC"-// W3C//DTD XHTML 1.0 Transitional//EN"" http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+    <link href="ear.css" rel="stylesheet" type="text/css">
+    <title>Corporate EAR Home
+    </title>
+<script type="text/JavaScript">
+<!--
+
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_nbGroup(event, grpName) { //v6.0
+  var i,img,nbArr,args=MM_nbGroup.arguments;
+  if (event == "init" && args.length > 2) {
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+      nbArr[nbArr.length] = img;
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = img.MM_dn = args[i+1];
+        nbArr[nbArr.length] = img;
+    } }
+  } else if (event == "over") {
+    document.MM_nbOver = nbArr = new Array();
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])? args[i+1] : img.MM_up);
+      nbArr[nbArr.length] = img;
+    }
+  } else if (event == "out" ) {
+    for (i=0; i < document.MM_nbOver.length; i++) {
+      img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+  } else if (event == "down") {
+    nbArr = document[grpName];
+    if (nbArr)
+      for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+    document[grpName] = nbArr = new Array();
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+      nbArr[nbArr.length] = img;
+  } }
+}
+//-->
+</script>
+  </head>
+
+  <body bgcolor="#CCCCCC" align="center" onload="MM_preloadImages('/images/HomeOver.jpg','/images/VisionOver.jpg','/images/ContactOver.jpg','/images/PrivacyOver.jpg')">
+    <div id="banner">
+      <div align="left">
+        <table id="menubar" border="0" cellspacing="0">
+          <tr id="menubar">
+            <td width="475">&nbsp;
+            </td>
+            <td width="125">
+              <a href="index.html" target="_top" onclick="MM_nbGroup('down','group1','Home','/images/HomeOver.jpg',1)" onmouseover="MM_nbGroup('over','Home','/images/HomeOver.jpg','/images/HomeOver.jpg',1)" onmouseout="MM_nbGroup('out')">
+                <img src="/images/HomeUp.jpg" alt="Home" name="Home" width="126" height="75" border="0" id="Home" onload=""/>
+              </a>
+            </td>
+            <td width="125">
+              <a href="vision.html" target="_top" onclick="MM_nbGroup('down','group1','Vision','/images/VisionOver.jpg',1)" onmouseover="MM_nbGroup('over','Vision','/images/VisionOver.jpg','/images/VisionOver.jpg',1)" onmouseout="MM_nbGroup('out')">
+                <img src="/images/VisionUp.jpg" alt="Vision" name="Vision" width="126" height="75" border="0" id="Vision" onload=""/>
+              </a>
+            </td>
+            <td width="125">
+              <a href="contact.html" target="_top" onclick="MM_nbGroup('down','group1','Contact','/images/ContactOver.jpg',1)" onmouseover="MM_nbGroup('over','Contact','/images/ContactOver.jpg','/images/ContactOver.jpg',1)" onmouseout="MM_nbGroup('out')">
+                <img src="/images/ContactUp.jpg" alt="Contact" name="Contact" width="126" height="75" border="0" id="Contact" onload=""/>
+              </a>
+            </td>
+            <td width="125">
+              <a href="privacy.html" target="_top" onclick="MM_nbGroup('down','group1','Privacy','/images/PrivacyOver.jpg',1)" onmouseover="MM_nbGroup('over','Privacy','/images/PrivacyOver.jpg','/images/PrivacyOver.jpg',1)" onmouseout="MM_nbGroup('out')">
+                <img src="/images/PrivacyUp.jpg" alt="Privacy" name="Privacy" width="126" height="75" border="0" id="Privacy" onload=""/>
+              </a>
+            </td>
+            <td width="20">&nbsp;
+            </td>
+          </tr>
+        </table>
+        <div id="bannertext">The Employee Accountability Review System 
+        </div>
+      </div>
+    </div>
+    <div align="center">
+      <table border="0" cellspacing="0" cellpadding="5">
+        <tr>
+          <td id="outliers" width="160">
+            <div id="bestcompany">
+              <p align="center">
+                <img src="/images/DefaultCompany.jpg" alt="Best Rated Company" name="bestcompanyimg" width="100" height="100" id="bestcompanyimg" style="background-color: #999999"/>
+                <span id="bestcompanynme">bestcompanynme                </span>
+                <br/>
+                <span id="bestcompanyrtg">bestcompanyrtg
+                </span>	
+              </p>
+            </div>
+            <div id="bestemployee">
+              <p align="center">
+                <img src="/images/DefaultEmployee.jpg" alt="Best Rated Employee" name="bestemployeeimg" width="100" height="100" id="bestemployeeimg" style="background-color: #999999"/>
+                <span id="bestemployeenme">bestemployeenme                </span>
+                <br/>	
+                <span id="bestemployeertg">bestemployeertg
+                </span>	
+              </p>
+            </div>
+            <div id="worstcompany">
+              <p align="center">
+                <img src="/images/DefaultCompany.jpg" alt="Worst Rated Company" name="worstcompanyimg" width="100" height="100" id="worstcompanyimg" style="background-color: #999999"/>
+                <span id="worstcompanynme">worstcompanyimg                </span>
+                <br/>
+                <span id="worstcompanyrtg">worstcompanyrtg
+                </span>	
+              </p>
+            </div>
+            <div id="worstemployee">
+              <p align="center">
+                <img src="/images/DefaultEmployee.jpg" alt="Worst Rated Employee" name="worstemployee" width="100" height="100" id="worstemployee" style="background-color: #999999"/>
+                <span id="worstemployeenme">worstemployeenme                </span>
+                <br/>
+                <span id="wostemployeertg">wostemployeertg
+                </span>	
+              </p>
+            </div>	
+          </td>
+          <td id="guts" width="820" valign="top">
+            <div id="privacy" class="block">
+              <p align="center">
+                <strong>Privacy Policy 
+                </strong>
+              </p>
+              <p align="left">
+                <strong>Third party links
+                </strong>
+              </p>
+              <p> Occasionally, at our discretion, we may include or offer third party products or services on our website. These third party sites have separate and independent privacy policies. We therefore have no responsibility or liability for the content and activities of these linked sites. Nonetheless, we seek to protect the integrity of our site and welcome any feedback about these sites.
+                <br/>
+              </p>
+              <p>
+                <strong>California Online Privacy Protection Act Compliance
+                </strong>
+              </p>
+              <p>Because we value your privacy we have taken the necessary precautions to be in compliance with the California Online Privacy Protection Act. We therefore will not distribute your personal information to outside parties without your consent.
+                <br/>
+              </p>
+              <p>
+                <strong>Childrens Online Privacy Protection Act Compliance
+                </strong>
+              </p>
+              <p>We are in compliance with the requirements of COPPA (Childrens Online Privacy Protection Act), we do not collect any information from anyone under 13 years of age. Our website, products and services are all directed to people who are at least 13 years old or older.
+                <br/>
+              </p>
+              <p>
+                <strong>Notice of Acknowledgement
+                </strong>
+              </p>
+              <p>This Privacy Policy and the statements contained herein are subject to change as deemed appropriate by CorporateEAR.com, its stakeholders, its management, or its affiliates.
+                <br/>
+              </p>
+              <p>
+                <strong>Online Privacy Policy Only
+                </strong>
+              </p>
+              <p>This online privacy policy applies only to information collected through our website and not to information collected offline.
+                <br/>
+              </p>
+              <p>
+                <strong>Terms and Conditions
+                </strong>
+              </p>
+              <p>Please also visit our Terms and Conditions section establishing the use, disclaimers, and limitations of liability governing the use of our website at http://www.corporateear.com.
+                <br/>
+              </p>
+              <p>
+                <strong>Your Consent
+                </strong>
+              </p>
+              <p>By using our site, you consent to our privacy policy.
+                <br/>
+              </p>
+              <p>
+                <strong>Changes to our Privacy Policy
+                </strong>
+              </p>
+              <p>If we decide to change our privacy policy, we will post those changes on this page. 
+              </p>
+              <p>This policy was last modified on 3/29/2010
+                <br/>
+              </p>
+              <p>
+                <strong>Contacting Us
+                </strong>
+              </p>
+              <p>If there are any questions regarding this privacy policy you may contact us using the information below. 
+                <br/>
+              </p>
+              <p>http://www.corporateear.com/contact.html
+                <br/>
+                webmaster@corporateear.com
+              </p>
+              <p>
+                <br/>
+              </p>
+            </div>
+            <p>&nbsp;
+            </p>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div id="copyright">
+      <div align="center">&copy;CorporateEAR.com 
+      </div>
+    </div>
+  </body>
+</html>

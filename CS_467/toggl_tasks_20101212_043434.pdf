@@ -1,0 +1,635 @@
+%PDF-1.3
+%âãÏÓ
+
+1 0 obj
+<< /Type /Catalog
+/Outlines 2 0 R
+/Pages 3 0 R>>
+endobj
+2 0 obj
+<< /Type /Outlines >>
+endobj
+3 0 obj
+<< /Type /Pages
+/Kids [6 0 R
+13 0 R
+15 0 R
+]
+/Count 3
+/Resources <<
+/ProcSet 4 0 R
+/Font << 
+/F1 9 0 R
+/F2 12 0 R >>
+>>
+/MediaBox [0 0 595.28 841.89]
+ >>
+endobj
+4 0 obj
+[/PDF /Text ]
+endobj
+5 0 obj
+<<
+/CreationDate (D:201012120934)
+/Creator (current)
+/Producer (PDF::Writer for Ruby)
+>>
+endobj
+6 0 obj
+<< /Type /Page
+/Parent 3 0 R
+/Contents [
+7 0 R
+10 0 R
+]
+>>
+endobj
+7 0 obj
+<<
+/Length 10651 >>
+stream
+
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+BT 65.000 794.330 Td /F2 10.0 Tf 0 Tr (Tasks) Tj ET
+BT 65.000 782.770 Td /F1 10.0 Tf 0 Tr (
+) Tj ET
+0.800 0.800 0.800 RG
+BT 65.000 766.210 Td /F1 10.0 Tf 0 Tr (Start) Tj ET
+BT 158.355 766.210 Td /F1 10.0 Tf 0 Tr (User) Tj ET
+BT 251.709 766.210 Td /F1 10.0 Tf 0 Tr (Client. Project ) Tj ET
+BT 251.709 754.650 Td /F1 10.0 Tf 0 Tr (name) Tj ET
+BT 345.064 766.210 Td /F1 10.0 Tf 0 Tr (Description) Tj ET
+BT 438.418 766.210 Td /F1 10.0 Tf 0 Tr (Billable) Tj ET
+BT 480.971 766.210 Td /F1 10.0 Tf 0 Tr (Duration) Tj ET
+BT 65.000 730.840 Td /F1 10.0 Tf 0 Tr (12/01/2010) Tj ET
+BT 65.000 719.280 Td /F1 10.0 Tf 0 Tr (09:18 AM - 11:18 ) Tj ET
+BT 65.000 707.720 Td /F1 10.0 Tf 0 Tr (AM) Tj ET
+BT 158.355 730.840 Td /F1 10.0 Tf 0 Tr (joshuagburkhart@) Tj ET
+BT 158.355 719.280 Td /F1 10.0 Tf 0 Tr (gmail.com) Tj ET
+BT 251.709 730.840 Td /F1 10.0 Tf 0 Tr (Autonomous GPS ) Tj ET
+BT 251.709 719.280 Td /F1 10.0 Tf 0 Tr (Guided Vehicle) Tj ET
+BT 345.064 730.840 Td /F1 10.0 Tf 0 Tr (improved ) Tj ET
+BT 345.064 719.280 Td /F1 10.0 Tf 0 Tr (navigation logic ) Tj ET
+BT 438.418 730.840 Td /F1 10.0 Tf 0 Tr (yes) Tj ET
+BT 480.971 730.840 Td /F1 10.0 Tf 0 Tr (02:00:00) Tj ET
+BT 65.000 686.160 Td /F1 10.0 Tf 0 Tr (12/01/2010) Tj ET
+BT 65.000 674.600 Td /F1 10.0 Tf 0 Tr (09:18 AM - 11:18 ) Tj ET
+BT 65.000 663.040 Td /F1 10.0 Tf 0 Tr (AM) Tj ET
+BT 158.355 686.160 Td /F1 10.0 Tf 0 Tr (joshuagburkhart@) Tj ET
+BT 158.355 674.600 Td /F1 10.0 Tf 0 Tr (gmail.com) Tj ET
+BT 251.709 686.160 Td /F1 10.0 Tf 0 Tr (Autonomous GPS ) Tj ET
+BT 251.709 674.600 Td /F1 10.0 Tf 0 Tr (Guided Vehicle) Tj ET
+BT 345.064 686.160 Td /F1 10.0 Tf 0 Tr (resoldered ) Tj ET
+BT 345.064 674.600 Td /F1 10.0 Tf 0 Tr (compass for ) Tj ET
+BT 345.064 663.040 Td /F1 10.0 Tf 0 Tr (better rigitity ) Tj ET
+BT 438.418 686.160 Td /F1 10.0 Tf 0 Tr (yes) Tj ET
+BT 480.971 686.160 Td /F1 10.0 Tf 0 Tr (02:00:00) Tj ET
+BT 65.000 641.480 Td /F1 10.0 Tf 0 Tr (12/01/2010) Tj ET
+BT 65.000 629.920 Td /F1 10.0 Tf 0 Tr (04:18 AM - 05:18 ) Tj ET
+BT 65.000 618.360 Td /F1 10.0 Tf 0 Tr (AM) Tj ET
+BT 158.355 641.480 Td /F1 10.0 Tf 0 Tr (joshuagburkhart@) Tj ET
+BT 158.355 629.920 Td /F1 10.0 Tf 0 Tr (gmail.com) Tj ET
+BT 251.709 641.480 Td /F1 10.0 Tf 0 Tr (Autonomous GPS ) Tj ET
+BT 251.709 629.920 Td /F1 10.0 Tf 0 Tr (Guided Vehicle) Tj ET
+BT 345.064 641.480 Td /F1 10.0 Tf 0 Tr (debugged turning ) Tj ET
+BT 345.064 629.920 Td /F1 10.0 Tf 0 Tr (problem, tested ) Tj ET
+BT 345.064 618.360 Td /F1 10.0 Tf 0 Tr (WORKING ) Tj ET
+BT 438.418 641.480 Td /F1 10.0 Tf 0 Tr (yes) Tj ET
+BT 480.971 641.480 Td /F1 10.0 Tf 0 Tr (01:00:00) Tj ET
+BT 65.000 596.800 Td /F1 10.0 Tf 0 Tr (11/28/2010) Tj ET
+BT 65.000 585.240 Td /F1 10.0 Tf 0 Tr (10:17 AM - 11:17 ) Tj ET
+BT 65.000 573.680 Td /F1 10.0 Tf 0 Tr (AM) Tj ET
+BT 158.355 596.800 Td /F1 10.0 Tf 0 Tr (joshuagburkhart@) Tj ET
+BT 158.355 585.240 Td /F1 10.0 Tf 0 Tr (gmail.com) Tj ET
+BT 251.709 596.800 Td /F1 10.0 Tf 0 Tr (Autonomous GPS ) Tj ET
+BT 251.709 585.240 Td /F1 10.0 Tf 0 Tr (Guided Vehicle) Tj ET
+BT 345.064 596.800 Td /F1 10.0 Tf 0 Tr (finished gps ) Tj ET
+BT 345.064 585.240 Td /F1 10.0 Tf 0 Tr (coordinate ) Tj ET
+BT 345.064 573.680 Td /F1 10.0 Tf 0 Tr (prompt / ) Tj ET
+BT 345.064 562.120 Td /F1 10.0 Tf 0 Tr (read..ready for ) Tj ET
+BT 345.064 550.560 Td /F1 10.0 Tf 0 Tr (testing ) Tj ET
+BT 438.418 596.800 Td /F1 10.0 Tf 0 Tr (yes) Tj ET
+BT 480.971 596.800 Td /F1 10.0 Tf 0 Tr (01:00:00) Tj ET
+BT 65.000 529.000 Td /F1 10.0 Tf 0 Tr (11/28/2010) Tj ET
+BT 65.000 517.440 Td /F1 10.0 Tf 0 Tr (10:17 AM - 11:17 ) Tj ET
+BT 65.000 505.880 Td /F1 10.0 Tf 0 Tr (AM) Tj ET
+BT 158.355 529.000 Td /F1 10.0 Tf 0 Tr (joshuagburkhart@) Tj ET
+BT 158.355 517.440 Td /F1 10.0 Tf 0 Tr (gmail.com) Tj ET
+BT 251.709 529.000 Td /F1 10.0 Tf 0 Tr (Autonomous GPS ) Tj ET
+BT 251.709 517.440 Td /F1 10.0 Tf 0 Tr (Guided Vehicle) Tj ET
+BT 345.064 529.000 Td /F1 10.0 Tf 0 Tr (added new ) Tj ET
+BT 345.064 517.440 Td /F1 10.0 Tf 0 Tr (production code, ) Tj ET
+BT 345.064 505.880 Td /F1 10.0 Tf 0 Tr (renamed gpstest ) Tj ET
+BT 345.064 494.320 Td /F1 10.0 Tf 0 Tr (file ) Tj ET
+BT 438.418 529.000 Td /F1 10.0 Tf 0 Tr (yes) Tj ET
+BT 480.971 529.000 Td /F1 10.0 Tf 0 Tr (01:00:00) Tj ET
+BT 65.000 472.760 Td /F1 10.0 Tf 0 Tr (11/28/2010) Tj ET
+BT 65.000 461.200 Td /F1 10.0 Tf 0 Tr (04:16 AM - 05:16 ) Tj ET
+BT 65.000 449.640 Td /F1 10.0 Tf 0 Tr (AM) Tj ET
+BT 158.355 472.760 Td /F1 10.0 Tf 0 Tr (joshuagburkhart@) Tj ET
+BT 158.355 461.200 Td /F1 10.0 Tf 0 Tr (gmail.com) Tj ET
+BT 251.709 472.760 Td /F1 10.0 Tf 0 Tr (Autonomous GPS ) Tj ET
+BT 251.709 461.200 Td /F1 10.0 Tf 0 Tr (Guided Vehicle) Tj ET
+BT 345.064 472.760 Td /F1 10.0 Tf 0 Tr (tested and ) Tj ET
+BT 345.064 461.200 Td /F1 10.0 Tf 0 Tr (modified ) Tj ET
+BT 345.064 449.640 Td /F1 10.0 Tf 0 Tr (production code ) Tj ET
+BT 438.418 472.760 Td /F1 10.0 Tf 0 Tr (yes) Tj ET
+BT 480.971 472.760 Td /F1 10.0 Tf 0 Tr (01:00:00) Tj ET
+BT 65.000 428.080 Td /F1 10.0 Tf 0 Tr (11/28/2010) Tj ET
+BT 65.000 416.520 Td /F1 10.0 Tf 0 Tr (04:16 AM - 05:16 ) Tj ET
+BT 65.000 404.960 Td /F1 10.0 Tf 0 Tr (AM) Tj ET
+BT 158.355 428.080 Td /F1 10.0 Tf 0 Tr (joshuagburkhart@) Tj ET
+BT 158.355 416.520 Td /F1 10.0 Tf 0 Tr (gmail.com) Tj ET
+BT 251.709 428.080 Td /F1 10.0 Tf 0 Tr (Autonomous GPS ) Tj ET
+BT 251.709 416.520 Td /F1 10.0 Tf 0 Tr (Guided Vehicle) Tj ET
+BT 345.064 428.080 Td /F1 10.0 Tf 0 Tr (modified, tested, ) Tj ET
+BT 345.064 416.520 Td /F1 10.0 Tf 0 Tr (& tuned ) Tj ET
+BT 345.064 404.960 Td /F1 10.0 Tf 0 Tr (production code ) Tj ET
+BT 438.418 428.080 Td /F1 10.0 Tf 0 Tr (yes) Tj ET
+BT 480.971 428.080 Td /F1 10.0 Tf 0 Tr (01:00:00) Tj ET
+BT 65.000 383.400 Td /F1 10.0 Tf 0 Tr (11/24/2010) Tj ET
+BT 65.000 371.840 Td /F1 10.0 Tf 0 Tr (09:16 AM - 11:16 ) Tj ET
+BT 65.000 360.280 Td /F1 10.0 Tf 0 Tr (AM) Tj ET
+BT 158.355 383.400 Td /F1 10.0 Tf 0 Tr (joshuagburkhart@) Tj ET
+BT 158.355 371.840 Td /F1 10.0 Tf 0 Tr (gmail.com) Tj ET
+BT 251.709 383.400 Td /F1 10.0 Tf 0 Tr (Autonomous GPS ) Tj ET
+BT 251.709 371.840 Td /F1 10.0 Tf 0 Tr (Guided Vehicle) Tj ET
+BT 345.064 383.400 Td /F1 10.0 Tf 0 Tr (began ) Tj ET
+BT 345.064 371.840 Td /F1 10.0 Tf 0 Tr (composition and ) Tj ET
+BT 345.064 360.280 Td /F1 10.0 Tf 0 Tr (debugging ) Tj ET
+BT 345.064 348.720 Td /F1 10.0 Tf 0 Tr (production code ) Tj ET
+BT 438.418 383.400 Td /F1 10.0 Tf 0 Tr (yes) Tj ET
+BT 480.971 383.400 Td /F1 10.0 Tf 0 Tr (02:00:00) Tj ET
+BT 65.000 327.160 Td /F1 10.0 Tf 0 Tr (11/23/2010) Tj ET
+BT 65.000 315.600 Td /F1 10.0 Tf 0 Tr (04:15 AM - 05:15 ) Tj ET
+BT 65.000 304.040 Td /F1 10.0 Tf 0 Tr (AM) Tj ET
+BT 158.355 327.160 Td /F1 10.0 Tf 0 Tr (joshuagburkhart@) Tj ET
+BT 158.355 315.600 Td /F1 10.0 Tf 0 Tr (gmail.com) Tj ET
+BT 251.709 327.160 Td /F1 10.0 Tf 0 Tr (Autonomous GPS ) Tj ET
+BT 251.709 315.600 Td /F1 10.0 Tf 0 Tr (Guided Vehicle) Tj ET
+BT 345.064 327.160 Td /F1 10.0 Tf 0 Tr (added an irtest ) Tj ET
+BT 345.064 315.600 Td /F1 10.0 Tf 0 Tr (sketch and ) Tj ET
+BT 345.064 304.040 Td /F1 10.0 Tf 0 Tr (integrated ir w ) Tj ET
+BT 345.064 292.480 Td /F1 10.0 Tf 0 Tr (mct0 sketch ) Tj ET
+BT 438.418 327.160 Td /F1 10.0 Tf 0 Tr (yes) Tj ET
+BT 480.971 327.160 Td /F1 10.0 Tf 0 Tr (01:00:00) Tj ET
+BT 65.000 270.920 Td /F1 10.0 Tf 0 Tr (11/23/2010) Tj ET
+BT 65.000 259.360 Td /F1 10.0 Tf 0 Tr (03:15 AM - 05:15 ) Tj ET
+BT 65.000 247.800 Td /F1 10.0 Tf 0 Tr (AM) Tj ET
+BT 158.355 270.920 Td /F1 10.0 Tf 0 Tr (joshuagburkhart@) Tj ET
+BT 158.355 259.360 Td /F1 10.0 Tf 0 Tr (gmail.com) Tj ET
+BT 251.709 270.920 Td /F1 10.0 Tf 0 Tr (Autonomous GPS ) Tj ET
+BT 251.709 259.360 Td /F1 10.0 Tf 0 Tr (Guided Vehicle) Tj ET
+BT 345.064 270.920 Td /F1 10.0 Tf 0 Tr (Merge branch ) Tj ET
+BT 345.064 259.360 Td /F1 10.0 Tf 0 Tr ('master' of ) Tj ET
+BT 345.064 247.800 Td /F1 10.0 Tf 0 Tr (github.com:/joshu) Tj ET
+BT 345.064 236.240 Td /F1 10.0 Tf 0 Tr (agburkhart/Autono) Tj ET
+BT 345.064 224.680 Td /F1 10.0 Tf 0 Tr (mous-Vehicle-) Tj ET
+BT 345.064 213.120 Td /F1 10.0 Tf 0 Tr (GVSU ) Tj ET
+BT 438.418 270.920 Td /F1 10.0 Tf 0 Tr (yes) Tj ET
+BT 480.971 270.920 Td /F1 10.0 Tf 0 Tr (02:00:00) Tj ET
+BT 65.000 191.560 Td /F1 10.0 Tf 0 Tr (11/21/2010) Tj ET
+BT 65.000 180.000 Td /F1 10.0 Tf 0 Tr (10:15 AM - 11:15 ) Tj ET
+BT 65.000 168.440 Td /F1 10.0 Tf 0 Tr (AM) Tj ET
+BT 158.355 191.560 Td /F1 10.0 Tf 0 Tr (joshuagburkhart@) Tj ET
+BT 158.355 180.000 Td /F1 10.0 Tf 0 Tr (gmail.com) Tj ET
+BT 251.709 191.560 Td /F1 10.0 Tf 0 Tr (Autonomous GPS ) Tj ET
+BT 251.709 180.000 Td /F1 10.0 Tf 0 Tr (Guided Vehicle) Tj ET
+BT 345.064 191.560 Td /F1 10.0 Tf 0 Tr (modified and ) Tj ET
+BT 345.064 180.000 Td /F1 10.0 Tf 0 Tr (optomized ) Tj ET
+BT 345.064 168.440 Td /F1 10.0 Tf 0 Tr (motorcompasstest) Tj ET
+BT 345.064 156.880 Td /F1 10.0 Tf 0 Tr (0 ) Tj ET
+BT 438.418 191.560 Td /F1 10.0 Tf 0 Tr (yes) Tj ET
+BT 480.971 191.560 Td /F1 10.0 Tf 0 Tr (01:00:00) Tj ET
+BT 65.000 135.320 Td /F1 10.0 Tf 0 Tr (11/21/2010) Tj ET
+BT 65.000 123.760 Td /F1 10.0 Tf 0 Tr (04:14 AM - 05:14 ) Tj ET
+BT 65.000 112.200 Td /F1 10.0 Tf 0 Tr (AM) Tj ET
+BT 158.355 135.320 Td /F1 10.0 Tf 0 Tr (joshuagburkhart@) Tj ET
+BT 158.355 123.760 Td /F1 10.0 Tf 0 Tr (gmail.com) Tj ET
+BT 251.709 135.320 Td /F1 10.0 Tf 0 Tr (Autonomous GPS ) Tj ET
+BT 251.709 123.760 Td /F1 10.0 Tf 0 Tr (Guided Vehicle) Tj ET
+BT 345.064 135.320 Td /F1 10.0 Tf 0 Tr (tuned code to ) Tj ET
+BT 345.064 123.760 Td /F1 10.0 Tf 0 Tr (directly relate turn ) Tj ET
+BT 345.064 112.200 Td /F1 10.0 Tf 0 Tr (size and time ) Tj ET
+BT 438.418 135.320 Td /F1 10.0 Tf 0 Tr (yes) Tj ET
+BT 480.971 135.320 Td /F1 10.0 Tf 0 Tr (01:00:00) Tj ET
+BT 65.000 90.640 Td /F1 10.0 Tf 0 Tr (11/20/2010) Tj ET
+BT 65.000 79.080 Td /F1 10.0 Tf 0 Tr (09:13 AM - 11:13 ) Tj ET
+BT 65.000 67.520 Td /F1 10.0 Tf 0 Tr (AM) Tj ET
+BT 158.355 90.640 Td /F1 10.0 Tf 0 Tr (joshuagburkhart@) Tj ET
+BT 158.355 79.080 Td /F1 10.0 Tf 0 Tr (gmail.com) Tj ET
+BT 251.709 90.640 Td /F1 10.0 Tf 0 Tr (Autonomous GPS ) Tj ET
+BT 251.709 79.080 Td /F1 10.0 Tf 0 Tr (Guided Vehicle) Tj ET
+BT 345.064 90.640 Td /F1 10.0 Tf 0 Tr (tested, debugged, ) Tj ET
+BT 345.064 79.080 Td /F1 10.0 Tf 0 Tr (and optomized ) Tj ET
+BT 345.064 67.520 Td /F1 10.0 Tf 0 Tr (motorcompastest0) Tj ET
+BT 345.064 55.960 Td /F1 10.0 Tf 0 Tr ( ) Tj ET
+BT 438.418 90.640 Td /F1 10.0 Tf 0 Tr (yes) Tj ET
+BT 480.971 90.640 Td /F1 10.0 Tf 0 Tr (02:00:00) Tj ET
+0.000 0.000 0.000 RG
+1 w
+60.000 782.770 m
+60.000 48.710 l S
+1 w
+153.355 782.770 m
+153.355 48.710 l S
+246.709 782.770 m
+246.709 48.710 l S
+340.064 782.770 m
+340.064 48.710 l S
+433.418 782.770 m
+433.418 48.710 l S
+475.971 782.770 m
+475.971 48.710 l S
+1 w
+525.280 782.770 m
+525.280 48.710 l S
+59.500 782.770 m
+525.780 782.770 l S
+60.000 747.400 m
+525.280 747.400 l S
+59.500 48.710 m
+525.780 48.710 l S
+endstream
+endobj
+
+8 0 obj
+<< /Type /Encoding
+/BaseEncoding /WinAnsiEncoding
+
+>>
+endobj
+9 0 obj
+<< /Type /Font
+/Subtype /Type1
+/Name /F1
+/BaseFont /Helvetica
+/Encoding 8 0 R
+>>
+endobj
+10 0 obj
+<<
+/Length 80 >>
+stream
+
+q
+BT 428.920 26.752 Td /F1 8.0 Tf 0 Tr (Created with www.toggl.com) Tj ET
+1 w
+Q
+endstream
+endobj
+
+11 0 obj
+<< /Type /Encoding
+/BaseEncoding /WinAnsiEncoding
+
+>>
+endobj
+12 0 obj
+<< /Type /Font
+/Subtype /Type1
+/Name /F2
+/BaseFont /Helvetica-Bold
+/Encoding 11 0 R
+>>
+endobj
+13 0 obj
+<< /Type /Page
+/Parent 3 0 R
+/Contents [
+14 0 R
+10 0 R
+]
+>>
+endobj
+14 0 obj
+<<
+/Length 10292 >>
+stream
+
+1 w
+q
+0.000 0.000 0.000 rg
+BT 65.000 789.330 Td /F1 10.0 Tf 0 Tr (Start) Tj ET
+BT 158.355 789.330 Td /F1 10.0 Tf 0 Tr (User) Tj ET
+BT 251.709 789.330 Td /F1 10.0 Tf 0 Tr (Client. Project ) Tj ET
+BT 251.709 777.770 Td /F1 10.0 Tf 0 Tr (name) Tj ET
+BT 345.064 789.330 Td /F1 10.0 Tf 0 Tr (Description) Tj ET
+BT 438.418 789.330 Td /F1 10.0 Tf 0 Tr (Billable) Tj ET
+BT 480.971 789.330 Td /F1 10.0 Tf 0 Tr (Duration) Tj ET
+BT 65.000 753.960 Td /F1 10.0 Tf 0 Tr (11/18/2010) Tj ET
+BT 65.000 742.400 Td /F1 10.0 Tf 0 Tr (01:00 PM - 04:00 ) Tj ET
+BT 65.000 730.840 Td /F1 10.0 Tf 0 Tr (PM) Tj ET
+BT 158.355 753.960 Td /F1 10.0 Tf 0 Tr (joshuagburkhart@) Tj ET
+BT 158.355 742.400 Td /F1 10.0 Tf 0 Tr (gmail.com) Tj ET
+BT 251.709 753.960 Td /F1 10.0 Tf 0 Tr (Autonomous GPS ) Tj ET
+BT 251.709 742.400 Td /F1 10.0 Tf 0 Tr (Guided Vehicle) Tj ET
+BT 345.064 753.960 Td /F1 10.0 Tf 0 Tr (updated logic for ) Tj ET
+BT 345.064 742.400 Td /F1 10.0 Tf 0 Tr (faster lft/rt turn ) Tj ET
+BT 345.064 730.840 Td /F1 10.0 Tf 0 Tr (calculation ) Tj ET
+BT 438.418 753.960 Td /F1 10.0 Tf 0 Tr (yes) Tj ET
+BT 480.971 753.960 Td /F1 10.0 Tf 0 Tr (03:00:00) Tj ET
+BT 65.000 709.280 Td /F1 10.0 Tf 0 Tr (11/14/2010) Tj ET
+BT 65.000 697.720 Td /F1 10.0 Tf 0 Tr (10:58 AM - 02:58 ) Tj ET
+BT 65.000 686.160 Td /F1 10.0 Tf 0 Tr (PM) Tj ET
+BT 158.355 709.280 Td /F1 10.0 Tf 0 Tr (joshuagburkhart@) Tj ET
+BT 158.355 697.720 Td /F1 10.0 Tf 0 Tr (gmail.com) Tj ET
+BT 251.709 709.280 Td /F1 10.0 Tf 0 Tr (Autonomous GPS ) Tj ET
+BT 251.709 697.720 Td /F1 10.0 Tf 0 Tr (Guided Vehicle) Tj ET
+BT 345.064 709.280 Td /F1 10.0 Tf 0 Tr (worked on motor -) Tj ET
+BT 345.064 697.720 Td /F1 10.0 Tf 0 Tr ( compass code ) Tj ET
+BT 345.064 686.160 Td /F1 10.0 Tf 0 Tr (integration ) Tj ET
+BT 438.418 709.280 Td /F1 10.0 Tf 0 Tr (yes) Tj ET
+BT 480.971 709.280 Td /F1 10.0 Tf 0 Tr (04:00:00) Tj ET
+BT 65.000 664.600 Td /F1 10.0 Tf 0 Tr (11/13/2010) Tj ET
+BT 65.000 653.040 Td /F1 10.0 Tf 0 Tr (03:30 PM - 06:30 ) Tj ET
+BT 65.000 641.480 Td /F1 10.0 Tf 0 Tr (PM) Tj ET
+BT 158.355 664.600 Td /F1 10.0 Tf 0 Tr (joshuagburkhart@) Tj ET
+BT 158.355 653.040 Td /F1 10.0 Tf 0 Tr (gmail.com) Tj ET
+BT 251.709 664.600 Td /F1 10.0 Tf 0 Tr (Autonomous GPS ) Tj ET
+BT 251.709 653.040 Td /F1 10.0 Tf 0 Tr (Guided Vehicle) Tj ET
+BT 345.064 664.600 Td /F1 10.0 Tf 0 Tr (worked on ) Tj ET
+BT 345.064 653.040 Td /F1 10.0 Tf 0 Tr (milestone report ) Tj ET
+BT 345.064 641.480 Td /F1 10.0 Tf 0 Tr (and code ) Tj ET
+BT 345.064 629.920 Td /F1 10.0 Tf 0 Tr (integration ) Tj ET
+BT 438.418 664.600 Td /F1 10.0 Tf 0 Tr (yes) Tj ET
+BT 480.971 664.600 Td /F1 10.0 Tf 0 Tr (03:00:00) Tj ET
+BT 65.000 608.360 Td /F1 10.0 Tf 0 Tr (10/30/2010) Tj ET
+BT 65.000 596.800 Td /F1 10.0 Tf 0 Tr (01:05 PM - 05:35 ) Tj ET
+BT 65.000 585.240 Td /F1 10.0 Tf 0 Tr (PM) Tj ET
+BT 158.355 608.360 Td /F1 10.0 Tf 0 Tr (joshuagburkhart@) Tj ET
+BT 158.355 596.800 Td /F1 10.0 Tf 0 Tr (gmail.com) Tj ET
+BT 251.709 608.360 Td /F1 10.0 Tf 0 Tr (Autonomous GPS ) Tj ET
+BT 251.709 596.800 Td /F1 10.0 Tf 0 Tr (Guided Vehicle) Tj ET
+BT 345.064 608.360 Td /F1 10.0 Tf 0 Tr (Wrote motor test ) Tj ET
+BT 345.064 596.800 Td /F1 10.0 Tf 0 Tr (code, researched ) Tj ET
+BT 345.064 585.240 Td /F1 10.0 Tf 0 Tr (AF_DCMotor ) Tj ET
+BT 345.064 573.680 Td /F1 10.0 Tf 0 Tr (libraries, ) Tj ET
+BT 345.064 562.120 Td /F1 10.0 Tf 0 Tr (configured git / ) Tj ET
+BT 345.064 550.560 Td /F1 10.0 Tf 0 Tr (github, added link ) Tj ET
+BT 345.064 539.000 Td /F1 10.0 Tf 0 Tr (to blog ) Tj ET
+BT 438.418 608.360 Td /F1 10.0 Tf 0 Tr (yes) Tj ET
+BT 480.971 608.360 Td /F1 10.0 Tf 0 Tr (04:30:00) Tj ET
+BT 65.000 517.440 Td /F1 10.0 Tf 0 Tr (10/25/2010) Tj ET
+BT 65.000 505.880 Td /F1 10.0 Tf 0 Tr (03:47 PM - 04:47 ) Tj ET
+BT 65.000 494.320 Td /F1 10.0 Tf 0 Tr (PM) Tj ET
+BT 158.355 517.440 Td /F1 10.0 Tf 0 Tr (joshuagburkhart@) Tj ET
+BT 158.355 505.880 Td /F1 10.0 Tf 0 Tr (gmail.com) Tj ET
+BT 251.709 517.440 Td /F1 10.0 Tf 0 Tr (Autonomous GPS ) Tj ET
+BT 251.709 505.880 Td /F1 10.0 Tf 0 Tr (Guided Vehicle) Tj ET
+BT 345.064 517.440 Td /F1 10.0 Tf 0 Tr (Researched ) Tj ET
+BT 345.064 505.880 Td /F1 10.0 Tf 0 Tr (Mobile Power ) Tj ET
+BT 345.064 494.320 Td /F1 10.0 Tf 0 Tr (Supplies ) Tj ET
+BT 438.418 517.440 Td /F1 10.0 Tf 0 Tr (yes) Tj ET
+BT 480.971 517.440 Td /F1 10.0 Tf 0 Tr (01:00:00) Tj ET
+BT 65.000 472.760 Td /F1 10.0 Tf 0 Tr (10/21/2010) Tj ET
+BT 65.000 461.200 Td /F1 10.0 Tf 0 Tr (04:00 PM - 07:00 ) Tj ET
+BT 65.000 449.640 Td /F1 10.0 Tf 0 Tr (PM) Tj ET
+BT 158.355 472.760 Td /F1 10.0 Tf 0 Tr (joshuagburkhart@) Tj ET
+BT 158.355 461.200 Td /F1 10.0 Tf 0 Tr (gmail.com) Tj ET
+BT 251.709 472.760 Td /F1 10.0 Tf 0 Tr (Autonomous GPS ) Tj ET
+BT 251.709 461.200 Td /F1 10.0 Tf 0 Tr (Guided Vehicle) Tj ET
+BT 345.064 472.760 Td /F1 10.0 Tf 0 Tr (Interfaced with ) Tj ET
+BT 345.064 461.200 Td /F1 10.0 Tf 0 Tr (Motor Driver and ) Tj ET
+BT 345.064 449.640 Td /F1 10.0 Tf 0 Tr (Motors ) Tj ET
+BT 438.418 472.760 Td /F1 10.0 Tf 0 Tr (yes) Tj ET
+BT 480.971 472.760 Td /F1 10.0 Tf 0 Tr (03:00:00) Tj ET
+BT 65.000 428.080 Td /F1 10.0 Tf 0 Tr (10/15/2010) Tj ET
+BT 65.000 416.520 Td /F1 10.0 Tf 0 Tr (12:47 PM - 02:47 ) Tj ET
+BT 65.000 404.960 Td /F1 10.0 Tf 0 Tr (PM) Tj ET
+BT 158.355 428.080 Td /F1 10.0 Tf 0 Tr (joshuagburkhart@) Tj ET
+BT 158.355 416.520 Td /F1 10.0 Tf 0 Tr (gmail.com) Tj ET
+BT 251.709 428.080 Td /F1 10.0 Tf 0 Tr (Autonomous GPS ) Tj ET
+BT 251.709 416.520 Td /F1 10.0 Tf 0 Tr (Guided Vehicle) Tj ET
+BT 345.064 428.080 Td /F1 10.0 Tf 0 Tr (Interfaced with ) Tj ET
+BT 345.064 416.520 Td /F1 10.0 Tf 0 Tr (GPS Unit ) Tj ET
+BT 438.418 428.080 Td /F1 10.0 Tf 0 Tr (yes) Tj ET
+BT 480.971 428.080 Td /F1 10.0 Tf 0 Tr (02:00:00) Tj ET
+BT 65.000 383.400 Td /F1 10.0 Tf 0 Tr (10/14/2010) Tj ET
+BT 65.000 371.840 Td /F1 10.0 Tf 0 Tr (09:19 PM - 09:39 ) Tj ET
+BT 65.000 360.280 Td /F1 10.0 Tf 0 Tr (PM) Tj ET
+BT 158.355 383.400 Td /F1 10.0 Tf 0 Tr (joshuagburkhart@) Tj ET
+BT 158.355 371.840 Td /F1 10.0 Tf 0 Tr (gmail.com) Tj ET
+BT 251.709 383.400 Td /F1 10.0 Tf 0 Tr (Autonomous GPS ) Tj ET
+BT 251.709 371.840 Td /F1 10.0 Tf 0 Tr (Guided Vehicle) Tj ET
+BT 345.064 383.400 Td /F1 10.0 Tf 0 Tr (Updated blog / ) Tj ET
+BT 345.064 371.840 Td /F1 10.0 Tf 0 Tr (photos ) Tj ET
+BT 438.418 383.400 Td /F1 10.0 Tf 0 Tr (yes) Tj ET
+BT 480.971 383.400 Td /F1 10.0 Tf 0 Tr (00:20:00) Tj ET
+BT 65.000 338.720 Td /F1 10.0 Tf 0 Tr (10/14/2010) Tj ET
+BT 65.000 327.160 Td /F1 10.0 Tf 0 Tr (01:00 PM - 04:00 ) Tj ET
+BT 65.000 315.600 Td /F1 10.0 Tf 0 Tr (PM) Tj ET
+BT 158.355 338.720 Td /F1 10.0 Tf 0 Tr (joshuagburkhart@) Tj ET
+BT 158.355 327.160 Td /F1 10.0 Tf 0 Tr (gmail.com) Tj ET
+BT 251.709 338.720 Td /F1 10.0 Tf 0 Tr (Autonomous GPS ) Tj ET
+BT 251.709 327.160 Td /F1 10.0 Tf 0 Tr (Guided Vehicle) Tj ET
+BT 345.064 338.720 Td /F1 10.0 Tf 0 Tr (Constructed ) Tj ET
+BT 345.064 327.160 Td /F1 10.0 Tf 0 Tr (Motorshield ) Tj ET
+BT 438.418 338.720 Td /F1 10.0 Tf 0 Tr (yes) Tj ET
+BT 480.971 338.720 Td /F1 10.0 Tf 0 Tr (03:00:00) Tj ET
+BT 65.000 294.040 Td /F1 10.0 Tf 0 Tr (10/12/2010) Tj ET
+BT 65.000 282.480 Td /F1 10.0 Tf 0 Tr (09:32 PM - 11:32 ) Tj ET
+BT 65.000 270.920 Td /F1 10.0 Tf 0 Tr (PM) Tj ET
+BT 158.355 294.040 Td /F1 10.0 Tf 0 Tr (joshuagburkhart@) Tj ET
+BT 158.355 282.480 Td /F1 10.0 Tf 0 Tr (gmail.com) Tj ET
+BT 251.709 294.040 Td /F1 10.0 Tf 0 Tr (Autonomous GPS ) Tj ET
+BT 251.709 282.480 Td /F1 10.0 Tf 0 Tr (Guided Vehicle) Tj ET
+BT 345.064 294.040 Td /F1 10.0 Tf 0 Tr (Researched ) Tj ET
+BT 345.064 282.480 Td /F1 10.0 Tf 0 Tr (Motor Shield ) Tj ET
+BT 345.064 270.920 Td /F1 10.0 Tf 0 Tr (Assembly and ) Tj ET
+BT 345.064 259.360 Td /F1 10.0 Tf 0 Tr (Operation ) Tj ET
+BT 438.418 294.040 Td /F1 10.0 Tf 0 Tr (yes) Tj ET
+BT 480.971 294.040 Td /F1 10.0 Tf 0 Tr (02:00:00) Tj ET
+BT 65.000 237.800 Td /F1 10.0 Tf 0 Tr (10/04/2010) Tj ET
+BT 65.000 226.240 Td /F1 10.0 Tf 0 Tr (12:58 PM - 02:13 ) Tj ET
+BT 65.000 214.680 Td /F1 10.0 Tf 0 Tr (PM) Tj ET
+BT 158.355 237.800 Td /F1 10.0 Tf 0 Tr (joshuagburkhart@) Tj ET
+BT 158.355 226.240 Td /F1 10.0 Tf 0 Tr (gmail.com) Tj ET
+BT 251.709 237.800 Td /F1 10.0 Tf 0 Tr (Autonomous GPS ) Tj ET
+BT 251.709 226.240 Td /F1 10.0 Tf 0 Tr (Guided Vehicle) Tj ET
+BT 345.064 237.800 Td /F1 10.0 Tf 0 Tr (Configured virtual ) Tj ET
+BT 345.064 226.240 Td /F1 10.0 Tf 0 Tr (machine in EOS ) Tj ET
+BT 345.064 214.680 Td /F1 10.0 Tf 0 Tr (lab to interface ) Tj ET
+BT 345.064 203.120 Td /F1 10.0 Tf 0 Tr (with arduino ) Tj ET
+BT 345.064 191.560 Td /F1 10.0 Tf 0 Tr (microcontroller ) Tj ET
+BT 438.418 237.800 Td /F1 10.0 Tf 0 Tr (yes) Tj ET
+BT 480.971 237.800 Td /F1 10.0 Tf 0 Tr (01:15:00) Tj ET
+BT 65.000 170.000 Td /F1 10.0 Tf 0 Tr (09/27/2010) Tj ET
+BT 65.000 158.440 Td /F1 10.0 Tf 0 Tr (12:52 PM - 02:22 ) Tj ET
+BT 65.000 146.880 Td /F1 10.0 Tf 0 Tr (PM) Tj ET
+BT 158.355 170.000 Td /F1 10.0 Tf 0 Tr (joshuagburkhart@) Tj ET
+BT 158.355 158.440 Td /F1 10.0 Tf 0 Tr (gmail.com) Tj ET
+BT 251.709 170.000 Td /F1 10.0 Tf 0 Tr (Autonomous GPS ) Tj ET
+BT 251.709 158.440 Td /F1 10.0 Tf 0 Tr (Guided Vehicle) Tj ET
+BT 345.064 170.000 Td /F1 10.0 Tf 0 Tr (Continued ) Tj ET
+BT 345.064 158.440 Td /F1 10.0 Tf 0 Tr (assembly of GPS ) Tj ET
+BT 345.064 146.880 Td /F1 10.0 Tf 0 Tr (unit ) Tj ET
+BT 438.418 170.000 Td /F1 10.0 Tf 0 Tr (yes) Tj ET
+BT 480.971 170.000 Td /F1 10.0 Tf 0 Tr (01:30:00) Tj ET
+BT 65.000 125.320 Td /F1 10.0 Tf 0 Tr (09/23/2010) Tj ET
+BT 65.000 113.760 Td /F1 10.0 Tf 0 Tr (02:33 PM - 04:30 ) Tj ET
+BT 65.000 102.200 Td /F1 10.0 Tf 0 Tr (PM) Tj ET
+BT 158.355 125.320 Td /F1 10.0 Tf 0 Tr (joshuagburkhart@) Tj ET
+BT 158.355 113.760 Td /F1 10.0 Tf 0 Tr (gmail.com) Tj ET
+BT 251.709 125.320 Td /F1 10.0 Tf 0 Tr (Autonomous GPS ) Tj ET
+BT 251.709 113.760 Td /F1 10.0 Tf 0 Tr (Guided Vehicle) Tj ET
+BT 345.064 125.320 Td /F1 10.0 Tf 0 Tr (Began assembly ) Tj ET
+BT 345.064 113.760 Td /F1 10.0 Tf 0 Tr (and soldering of ) Tj ET
+BT 345.064 102.200 Td /F1 10.0 Tf 0 Tr (GPS unit ) Tj ET
+BT 438.418 125.320 Td /F1 10.0 Tf 0 Tr (yes) Tj ET
+BT 480.971 125.320 Td /F1 10.0 Tf 0 Tr (01:57:00) Tj ET
+1 w
+60.000 805.890 m
+60.000 94.950 l S
+1 w
+153.355 805.890 m
+153.355 94.950 l S
+246.709 805.890 m
+246.709 94.950 l S
+340.064 805.890 m
+340.064 94.950 l S
+433.418 805.890 m
+433.418 94.950 l S
+475.971 805.890 m
+475.971 94.950 l S
+1 w
+525.280 805.890 m
+525.280 94.950 l S
+59.500 805.890 m
+525.780 805.890 l S
+60.000 770.520 m
+525.280 770.520 l S
+59.500 94.950 m
+525.780 94.950 l S
+Q
+endstream
+endobj
+
+15 0 obj
+<< /Type /Page
+/Parent 3 0 R
+/Contents [
+16 0 R
+10 0 R
+]
+>>
+endobj
+16 0 obj
+<<
+/Length 3480 >>
+stream
+
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+1 w
+q
+1 w
+q
+0.000 0.000 0.000 rg
+BT 65.000 789.330 Td /F1 10.0 Tf 0 Tr (Start) Tj ET
+BT 158.355 789.330 Td /F1 10.0 Tf 0 Tr (User) Tj ET
+BT 251.709 789.330 Td /F1 10.0 Tf 0 Tr (Client. Project ) Tj ET
+BT 251.709 777.770 Td /F1 10.0 Tf 0 Tr (name) Tj ET
+BT 345.064 789.330 Td /F1 10.0 Tf 0 Tr (Description) Tj ET
+BT 438.418 789.330 Td /F1 10.0 Tf 0 Tr (Billable) Tj ET
+BT 480.971 789.330 Td /F1 10.0 Tf 0 Tr (Duration) Tj ET
+BT 65.000 753.960 Td /F1 10.0 Tf 0 Tr (09/23/2010) Tj ET
+BT 65.000 742.400 Td /F1 10.0 Tf 0 Tr (11:00 AM - 01:00 ) Tj ET
+BT 65.000 730.840 Td /F1 10.0 Tf 0 Tr (PM) Tj ET
+BT 158.355 753.960 Td /F1 10.0 Tf 0 Tr (joshuagburkhart@) Tj ET
+BT 158.355 742.400 Td /F1 10.0 Tf 0 Tr (gmail.com) Tj ET
+BT 251.709 753.960 Td /F1 10.0 Tf 0 Tr (Autonomous GPS ) Tj ET
+BT 251.709 742.400 Td /F1 10.0 Tf 0 Tr (Guided Vehicle) Tj ET
+BT 345.064 753.960 Td /F1 10.0 Tf 0 Tr (Looked over ) Tj ET
+BT 345.064 742.400 Td /F1 10.0 Tf 0 Tr (assembly tutorials ) Tj ET
+BT 345.064 730.840 Td /F1 10.0 Tf 0 Tr (online ) Tj ET
+BT 438.418 753.960 Td /F1 10.0 Tf 0 Tr (yes) Tj ET
+BT 480.971 753.960 Td /F1 10.0 Tf 0 Tr (02:00:00) Tj ET
+BT 65.000 709.280 Td /F1 10.0 Tf 0 Tr (09/23/2010) Tj ET
+BT 65.000 697.720 Td /F1 10.0 Tf 0 Tr (10:00 AM - 11:00 ) Tj ET
+BT 65.000 686.160 Td /F1 10.0 Tf 0 Tr (AM) Tj ET
+BT 158.355 709.280 Td /F1 10.0 Tf 0 Tr (joshuagburkhart@) Tj ET
+BT 158.355 697.720 Td /F1 10.0 Tf 0 Tr (gmail.com) Tj ET
+BT 251.709 709.280 Td /F1 10.0 Tf 0 Tr (Autonomous GPS ) Tj ET
+BT 251.709 697.720 Td /F1 10.0 Tf 0 Tr (Guided Vehicle) Tj ET
+BT 345.064 709.280 Td /F1 10.0 Tf 0 Tr (Unpacked and ) Tj ET
+BT 345.064 697.720 Td /F1 10.0 Tf 0 Tr (organized parts, ) Tj ET
+BT 345.064 686.160 Td /F1 10.0 Tf 0 Tr (found instructions ) Tj ET
+BT 345.064 674.600 Td /F1 10.0 Tf 0 Tr (online, began ) Tj ET
+BT 345.064 663.040 Td /F1 10.0 Tf 0 Tr (assembly. ) Tj ET
+BT 438.418 709.280 Td /F1 10.0 Tf 0 Tr (yes) Tj ET
+BT 480.971 709.280 Td /F1 10.0 Tf 0 Tr (01:00:00) Tj ET
+BT 65.000 641.480 Td /F1 10.0 Tf 0 Tr (09/07/2010) Tj ET
+BT 65.000 629.920 Td /F1 10.0 Tf 0 Tr (09:00 AM - 12:00 ) Tj ET
+BT 65.000 618.360 Td /F1 10.0 Tf 0 Tr (PM) Tj ET
+BT 158.355 641.480 Td /F1 10.0 Tf 0 Tr (joshuagburkhart@) Tj ET
+BT 158.355 629.920 Td /F1 10.0 Tf 0 Tr (gmail.com) Tj ET
+BT 251.709 641.480 Td /F1 10.0 Tf 0 Tr (Autonomous GPS ) Tj ET
+BT 251.709 629.920 Td /F1 10.0 Tf 0 Tr (Guided Vehicle) Tj ET
+BT 345.064 641.480 Td /F1 10.0 Tf 0 Tr (Worked on ) Tj ET
+BT 345.064 629.920 Td /F1 10.0 Tf 0 Tr (building web ) Tj ET
+BT 345.064 618.360 Td /F1 10.0 Tf 0 Tr (presence: ) Tj ET
+BT 345.064 606.800 Td /F1 10.0 Tf 0 Tr (facebook, gmail, ) Tj ET
+BT 345.064 595.240 Td /F1 10.0 Tf 0 Tr (twitter, github, ) Tj ET
+BT 345.064 583.680 Td /F1 10.0 Tf 0 Tr (blogspot ) Tj ET
+BT 438.418 641.480 Td /F1 10.0 Tf 0 Tr (yes) Tj ET
+BT 480.971 641.480 Td /F1 10.0 Tf 0 Tr (03:00:00) Tj ET
+1 w
+60.000 805.890 m
+60.000 576.430 l S
+1 w
+153.355 805.890 m
+153.355 576.430 l S
+246.709 805.890 m
+246.709 576.430 l S
+340.064 805.890 m
+340.064 576.430 l S
+433.418 805.890 m
+433.418 576.430 l S
+475.971 805.890 m
+475.971 576.430 l S
+1 w
+525.280 805.890 m
+525.280 576.430 l S
+59.500 805.890 m
+525.780 805.890 l S
+60.000 770.520 m
+525.280 770.520 l S
+59.500 576.430 m
+525.780 576.430 l S
+BT 65.000 567.120 Td /F1 10.0 Tf 0 Tr (
+) Tj ET
+BT 65.000 555.560 Td /F1 10.0 Tf 0 Tr (Task count: ) Tj /F2 10.0 Tf 0 Tr (29) Tj ET
+BT 65.000 544.000 Td /F1 10.0 Tf 0 Tr (Total time: 54:32:00) Tj ET
+endstream
+endobj
+
+xref
+0 17
+0000000000 65535 f 
+0000000019 00000 n 
+0000000083 00000 n 
+0000000120 00000 n 
+0000000289 00000 n 
+0000000318 00000 n 
+0000000422 00000 n 
+0000000496 00000 n 
+0000011201 00000 n 
+0000011270 00000 n 
+0000011366 00000 n 
+0000011498 00000 n 
+0000011568 00000 n 
+0000011671 00000 n 
+0000011747 00000 n 
+0000022094 00000 n 
+0000022170 00000 n 
+
+trailer
+  << /Size 17
+     /Root 1 0 R
+ /Info 5 0 R
+  >>
+startxref
+25704
+%%EOF

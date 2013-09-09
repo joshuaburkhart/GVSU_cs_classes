@@ -1,0 +1,136 @@
+*
+{ 	
+	margin: 0px;
+	padding: 0px;
+	border-size: 0px;
+	font-family:"URW Gothic L","Helvetica","Arial";
+}
+
+body
+{
+	background-color: rgb(210,210,210);
+	margin: 10px auto auto auto;
+	width: 995px;
+	text-align: center;
+}
+
+#menubar
+{
+	background-image: url("images/banner.jpg");
+	background-repeat:no-repeat;
+	width: 995px;
+	height: 75px;
+}
+
+#bannertext
+{
+	font-weight: bold;
+	margin-left: 20px;
+}
+
+table
+{
+	border-width: 2px;
+	border-style: solid;
+	border-color: rgb(23,23,23);
+}
+
+#guts
+{
+	background-color: rgb(178,190,181);
+}
+
+#outliers
+{
+	border-width: 2px;
+	border-spacing: 3px;
+	border-style: solid;
+	border-color: rgb(23,23,23);
+}
+
+#bestcompany
+{
+	margin-top: 10px;
+}
+
+#navigation
+{
+	background-color: rgb(123,123,123);
+}
+
+.block
+{
+	margin: 10px 10px 10px 10px;
+	border-color: rgb(0,0,0);
+	border-width: 2px;
+	border-style: solid;
+
+	background-color: rgb(123,123,123);
+}
+
+.eblock
+{
+	text-align:left;
+	margin: 10px 10px 10px 10px;
+	border-color: rgb(0,0,0);
+	border-width: 2px;
+	border-style: solid;
+
+	background-color: rgb(123,123,123);
+}
+
+#search
+{
+	height: 300px;
+}
+
+#searchtitle
+{
+	font-weight: bold;
+}
+
+#searchform
+{
+	margin-top: 90px;
+}
+
+#searchbar
+{
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+#searchbutton
+{
+	margin-bottom: 10px;
+}
+
+#recent
+{
+	overflow: auto;
+}
+
+#recenttitle
+{
+	font-weight: bold;
+	font-size: 30px;
+}
+
+#comment
+{
+	background-color: rgb(100,100,100);
+}
+
+#link
+{
+	font-weight: bold;
+	color: #0066CC;
+}
+
+#copyright
+{
+	text-align: center;
+	font-weight: bold;
+	font-size: 12px;
+}
+

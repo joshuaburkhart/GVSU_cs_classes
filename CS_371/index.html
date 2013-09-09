@@ -1,0 +1,483 @@
+<!DOCTYPE html PUBLIC"-// W3C//DTD XHTML 1.0 Transitional//EN"" http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+    <link href="ear.css" rel="stylesheet" type="text/css">
+    <title>Corporate EAR Home
+    </title>
+<script type="text/JavaScript">
+<!--
+function searchStuff() {
+
+    var searchCriteria = document.getElementsByName("searchbar0")[0].value;
+	var searchEmployees = document.getElementsByName("checkbox0")[0].checked;
+	var searchCompanies = document.getElementsByName("checkbox1")[0].checked;
+	//window.location = "searchresults.html?search=%22" + searchCriteria + "%22&emps=%22" + searchEmployees + "%22&comps=%22" + searchCompanies;
+
+	if (window.XMLHttpRequest) {// code for IE7+, Firefox, Chrome, Opera, Safari
+  		xmlhttp=new XMLHttpRequest();
+  	}//end if
+	else {// code for IE6, IE5
+ 		xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+	}//end else
+	var file = "searchresults.php?search=" + searchCriteria + "&emps=" + searchEmployees + "&comps=" + searchCompanies;
+	xmlhttp.open("GET",file,false);
+	xmlhttp.send(null);
+	var searchResults = xmlhttp.responseText;
+	formatSearchResults(searchResults);
+}//end searchStuff function
+
+function formatSearchResults(results) {
+
+	var formatted = "<div class='block'>\n<br></br>\n<p>" + results + "</p>\n</div>";
+	document.getElementById('guts').innerHTML = formatted;
+
+}//end formatSearchResults function
+
+function clearStuff() {
+	//var empty = " ";
+	document.getElementsByName("searchbar0")[0].value = "";
+}//end clearStuff function
+
+function replaceContent(contentScript,tagId) {
+
+	if (window.XMLHttpRequest) {// code for IE7+, Firefox, Chrome, Opera, Safari
+  		xmlhttp=new XMLHttpRequest();
+  	}//end if
+	else {// code for IE6, IE5
+ 		xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+	}//end else
+	xmlhttp.open("GET",contentScript,false);
+	xmlhttp.send(null);
+	
+	if(tagId != "") {//if the tagId is not empty
+	
+		var newForm = xmlhttp.responseText;
+		document.getElementById(tagId).innerHTML = newForm;
+	
+	}//end if
+}//end replaceContent function
+
+function addEntity(entityName) {
+
+	var formattedRequest = "choice.php?nme=" + entityName;
+	replaceContent(formattedRequest,"guts");
+
+}//end addEntity function
+
+function addCompany(companyName) {
+	
+	var formattedRequest = "addComp.php?nme=" + companyName;
+	replaceContent(formattedRequest,"guts");
+	
+}//end addCompany function
+
+function addEmployee(employeeName) {
+
+	var formattedRequest = "compChoice.php?nme=" + employeeName;
+	replaceContent(formattedRequest,"guts");
+	
+}//end addEmployee function
+
+function addNxt(company) {
+	
+	if(company == "newCompany") {//if the user is creating a new company
+		var entityName = document.getElementById('entity').value;
+
+		var cName = document.getElementById('cName').value;
+		var strAddr = document.getElementById('strAddr').value;
+		var streetNum = strAddr.substring(0,strAddr.indexOf(" "));
+		var streetNme = strAddr.substring(strAddr.indexOf(" "));
+		var city = document.getElementById('city').value;
+		var stateProvince = document.getElementById('stateProvince').value;
+		var zipPostal = document.getElementById('zipPostal').value;
+
+		var formattedRequest = "addEmp.php?cName=" + cName + "&streetNum=" + streetNum + "&streetNme=" + streetNme + "&city=" + city + "&stateProvence=" + stateProvince + "&zipPostal=" + zipPostal + "&nme=" + entityName;
+
+		replaceContent(formattedRequest,"guts");
+
+	}//end if
+	else if(company != "void") {//if the user is using an existing company
+		var entityName = document.getElementById('entity').value;
+
+		var cArray = company.split(" ");
+		var cName = cArray[0];
+		var streetNum = cArray[1];
+		var streetNme = cArray[2];
+		var city = cArray[3];
+		var stateProvence = cArray[4];
+		var zipPostal = cArray[5];
+	
+		var formattedRequest = "addEmp.php?cName=" + cName + "&streetNum=" + streetNum + "&streetNme=" + streetNme + "&city=" + city + "&stateProvence=" + stateProvence + "&zipPostal=" + zipPostal + "&nme=" + entityName;
+
+		replaceContent(formattedRequest,"guts");
+	}//end if
+	else {//if company is 'void'
+		//do nothing
+	}//end else
+}//end addNxt function
+
+function findEmployee(cName,streetNum,streetNme,city,stateProvence,zipPostal,firstNme,lastNme,sex,position) {
+
+	var formattedRequest = "employee.php?cName=" + cName  + "&streetNum=" + streetNum + "&streetNme=" + streetNme + "&city=" + city + "&stateProvence=" + stateProvence + "&zipPostal=" + zipPostal + "&firstNme=" + firstNme + "&lastNme=" + lastNme + "&sex=" + sex + "&position=" + position;
+	replaceContent(formattedRequest,"guts");
+
+}//end findEmployee function
+
+function findCompany(cName,streetNum,streetNme,city,stateProvence,zipPostal) {
+
+	var formattedRequest = "company.php?cName=" + cName  + "&streetNum=" + streetNum + "&streetNme=" + streetNme + "&city=" + city + "&stateProvence=" + stateProvence + "&zipPostal=" + zipPostal;
+	replaceContent(formattedRequest,"guts");
+
+}//end findCompany function
+
+function createComp() {
+
+	var cName = document.getElementById('cName').value;
+	var strAddr = document.getElementById('strAddr').value;
+	var streetNum = strAddr.substring(0,strAddr.indexOf(" "));
+	var streetNme = strAddr.substring(strAddr.indexOf(" "));
+	var city = document.getElementById('city').value;
+	var stateProvince = document.getElementById('stateProvince').value;
+	var zipPostal = document.getElementById('zipPostal').value;
+
+	var formattedRequest = "createComp.php?cName=" + cName + "&streetNum=" + streetNum + "&streetNme=" + streetNme + "&city=" + city + "&stateProvince=" + stateProvince + "&zipPostal=" + zipPostal;
+	replaceContent(formattedRequest,"guts");
+
+}//end createComp function
+
+function createEmp() {
+
+	var company = document.getElementById('company').value;
+	var cArray = company.split("~");
+
+	var cName = cArray[0];
+	var streetNum = cArray[1];
+	var streetNme = cArray[2];
+	var city = cArray[3];
+	var stateProvince = cArray[4];
+	var zipPostal = cArray[5];
+
+	var firstNme = document.getElementById('firstNme').value;
+	var lastNme = document.getElementById('lastNme').value;
+	var sex = document.getElementById('sex').value;
+	var position = document.getElementById('position').value;
+
+	var formattedRequest = "createEmp.php?firstNme=" + firstNme + "&lastNme=" + lastNme + "&sex=" + sex + "&position=" + position + "&cName=" + cName + "&streetNum=" + streetNum + "&streetNme=" + streetNme + "&city=" + city + "&stateProvince=" + stateProvince + "&zipPostal=" + zipPostal;
+	replaceContent(formattedRequest,"guts");
+
+}//end createEmp function
+
+function companyReview(cName,streetNum,streetNme,city,stateProvence,zipPostal) {
+
+	var workEnvironment = document.getElementById('workEnvironment').value;
+	var efficiency = document.getElementById('efficiency').value;
+	var policy = document.getElementById('policy').value;
+	var comment = document.getElementById('comment').value;
+	
+	var passedValues = "cName=" + cName + "&streetNum=" + streetNum + "&streetNme=" + streetNme + "&city=" + city + "&stateProvence=" + stateProvence + "&zipPostal=" + zipPostal + "&workEnvironment=" + workEnvironment + "&efficiency=" + efficiency + "&policy=" + policy + "&comment=" + comment;
+
+	var formattedRequest = "companyReview.php?" + passedValues;
+	replaceContent(formattedRequest,"");
+
+	formattedRequest = "updateCompanyReviews.php?" + passedValues;
+	replaceContent(formattedRequest,"resultblock");
+
+}//end companyReview function
+
+function employeeReview(lastNme,firstNme,sex,cName,streetNum,streetNme,city,stateProvence,zipPostal) {
+
+	var leadership = document.getElementById('leadership').value;
+	var workEthic = document.getElementById('workEthic').value;
+	var teamWork = document.getElementById('teamWork').value;
+	var comment = document.getElementById('comment').value;
+	
+	var passedValues = "firstNme=" + firstNme + "&lastNme=" + lastNme + "&sex=" + sex + "&cName=" + cName + "&streetNum=" + streetNum + "&streetNme=" + streetNme + "&city=" + city + "&stateProvence=" + stateProvence + "&zipPostal=" + zipPostal + "&leadership=" + leadership + "&workEthic=" + workEthic + "&teamWork=" + teamWork + "&comment=" + comment;
+
+	var formattedRequest = "employeeReview.php?" + passedValues;
+	replaceContent(formattedRequest,"");
+
+	formattedRequest = "updateEmployeeReviews.php?" + passedValues;
+	replaceContent(formattedRequest,"resultblock");
+
+}//end companyReview function
+
+function initOutliers() {
+
+	formattedRequest = "outliers.php";
+	replaceContent(formattedRequest,"outliers");
+
+}//end initOutliers function
+
+function initRecent() {
+
+	formattedRequest = "recent.php";
+	replaceContent(formattedRequest,"recent");
+
+}//end initRecent function
+
+function checkKey(e){
+	var asciiSymbol;
+	if(e && e.which){
+		e = e;
+		asciiSymbol = e.which;
+	}//end if
+	else{
+		e = event;
+		asciiSymbol = e.keyCode;
+	}//end else
+	if(asciiSymbol == 13){ //13 is the <enter> key
+		searchStuff();
+		return false;
+	}//end if
+	else{
+		return true;
+	}//end else
+}//end checkKey function
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+
+	initOutliers();
+	initRecent();
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_nbGroup(event, grpName) { //v6.0
+  var i,img,nbArr,args=MM_nbGroup.arguments;
+  if (event == "init" && args.length > 2) {
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+      nbArr[nbArr.length] = img;
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = img.MM_dn = args[i+1];
+        nbArr[nbArr.length] = img;
+    } }
+  } else if (event == "over") {
+    document.MM_nbOver = nbArr = new Array();
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : ((args[i+1])? args[i+1] : img.MM_up);
+      nbArr[nbArr.length] = img;
+    }
+  } else if (event == "out" ) {
+    for (i=0; i < document.MM_nbOver.length; i++) {
+      img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+  } else if (event == "down") {
+    nbArr = document[grpName];
+    if (nbArr)
+      for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+    document[grpName] = nbArr = new Array();
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = img.MM_dn = (args[i+1])? args[i+1] : img.MM_up;
+      nbArr[nbArr.length] = img;
+  } }
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_jumpMenu(targ,selObj,restore){ //v3.0
+  eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+  if (restore) selObj.selectedIndex=0;
+}
+//-->
+</script>
+  </head>
+
+  <body bgcolor="#CCCCCC" align="center" onload="MM_preloadImages('/images/HomeOver.jpg','/images/VisionOver.jpg','/images/ContactOver.jpg','/images/PrivacyOver.jpg','/images/SearchButtonOver.jpg')">
+
+    <div id="banner">
+      <div align="left">
+        <table id="menubar" border="0" cellspacing="0">
+          <tr id="menubar">
+            <td width="475">&nbsp;
+            </td>
+            <td width="125">
+              <a href="index.html" target="_top" onclick="MM_nbGroup('down','group1','Home','/images/HomeOver.jpg',1)" onmouseover="MM_nbGroup('over','Home','/images/HomeOver.jpg','/images/HomeOver.jpg',1)" onmouseout="MM_nbGroup('out')">
+                <img src="/images/HomeUp.jpg" alt="Home" name="Home" width="126" height="75" border="0" id="Home" onload=""/>
+              </a>
+            </td>
+            <td width="125">
+              <a href="vision.html" target="_top" onclick="MM_nbGroup('down','group1','Vision','/images/VisionOver.jpg',1)" onmouseover="MM_nbGroup('over','Vision','/images/VisionOver.jpg','/images/VisionOver.jpg',1)" onmouseout="MM_nbGroup('out')">
+                <img src="/images/VisionUp.jpg" alt="Vision" name="Vision" width="126" height="75" border="0" id="Vision" onload=""/>
+              </a>
+            </td>
+            <td width="125">
+              <a href="contact.html" target="_top" onclick="MM_nbGroup('down','group1','Contact','/images/ContactOver.jpg',1)" onmouseover="MM_nbGroup('over','Contact','/images/ContactOver.jpg','/images/ContactOver.jpg',1)" onmouseout="MM_nbGroup('out')">
+                <img src="/images/ContactUp.jpg" alt="Contact" name="Contact" width="126" height="75" border="0" id="Contact" onload=""/>
+              </a>
+            </td>
+            <td width="125">
+              <a href="privacy.html" target="_top" onclick="MM_nbGroup('down','group1','Privacy','/images/PrivacyOver.jpg',1)" onmouseover="MM_nbGroup('over','Privacy','/images/PrivacyOver.jpg','/images/PrivacyOver.jpg',1)" onmouseout="MM_nbGroup('out')">
+                <img src="/images/PrivacyUp.jpg" alt="Privacy" name="Privacy" width="126" height="75" border="0" id="Privacy" onload=""/>
+              </a>
+            </td>
+            <td width="20">
+            </td>
+          </tr>
+        </table>
+        <div id="bannertext">The Employee Accountability Review System 
+        </div>
+      </div>
+    </div>
+    <div align="center">
+      <table border="0" cellspacing="0" cellpadding="5">
+
+        <tr>
+          <td id="outliers" width="160">
+			<span id="bannertext">Best Company
+        	</span>
+            <div id="bestcompany" class="outlier">
+              <p align="center">
+                <img src="/images/DefaultCompany.jpg" alt="Best Rated Company" name="bestcompanyimg" width="100" height="100" id="bestcompanyimg" style="background-color: #999999"/>
+                <span id="bestcompanynme">bestcompanynme
+                </span>
+                <br/>
+                <span id="bestcompanyrtg">bestcompanyrtg
+                </span>	
+              </p>
+
+            </div>
+			<span id="bannertext">Best Employee
+        	</span>
+            <div id="bestemployee" class="outlier">
+              <p align="center">
+                <img src="/images/DefaultEmployee.jpg" alt="Best Rated Employee" name="bestemployeeimg" width="100" height="100" id="bestemployeeimg" style="background-color: #999999"/>
+                <span id="bestemployeenme">bestemployeenme
+                </span>
+                <br/>	
+                <span id="bestemployeertg">bestemployeertg
+                </span>	
+              </p>
+            </div>
+			<span id="bannertext">Worst Company
+        	</span>
+            <div id="worstcompany" class="outlier">
+              <p align="center">
+                <img src="/images/DefaultCompany.jpg" alt="Worst Rated Company" name="worstcompanyimg" width="100" height="100" id="worstcompanyimg" style="background-color: #999999"/>
+                <span id="worstcompanynme">worstcompanyimg
+                </span>
+                <br/>
+                <span id="worstcompanyrtg">worstcompanyrtg
+                </span>	
+              </p>
+            </div>
+			<span id="bannertext">Worst Employee
+        	</span>
+            <div id="worstemployee" class="outlier">
+              <p align="center">
+                <img src="/images/DefaultEmployee.jpg" alt="Worst Rated Employee" name="worstemployee" width="100" height="100" id="worstemployee" style="background-color: #999999"/>
+                <span id="worstemployeenme">worstemployeenme
+                </span>
+                <br/>
+                <span id="wostemployeertg">wostemployeertg
+                </span>	
+              </p>
+            </div>	
+          </td>
+          <td id="guts" width="820" valign="top">
+			<span id="bannertext">Search
+        	</span>
+            <div id="search" class="block">
+              <p>
+              </p>
+              <p>&nbsp;
+              </p>
+              <form id="form1" name="form1">
+                <div align="center">
+                  <table id="searchform" width="70%" border="0" cellspacing="0" cellpadding="5">
+
+                    <tr>
+                      <td width="229">&nbsp;
+                      </td>
+                      <td width="265">
+                        <div align="left">
+                          <input name="searchbar0" type="text" id="searchbar" onclick="clearStuff()" onkeypress="return checkKey(event)" tabindex="0" value="Search for Employees or Companies" size="40" maxlength="100"/>
+                        </div>
+                      </td>
+                      <td width="2">&nbsp;
+
+                      </td>
+                      <td width="100" id="searchbutton">
+                        <div align="right">
+                          <a onclick="searchStuff()" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('searchbutton','','/images/SearchButtonOver.jpg',1)">
+                            <img src="/images/SearchButtonUp.jpg" alt="Search" name="searchbutton" width="100" height="32" border="0" align="top" id="searchbutton"/>
+                          </a>
+                        </div>
+                      </td>
+                      <td width="278">&nbsp;
+
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;
+                      </td>
+                      <td>
+                        <input name="checkbox0" type="checkbox" tabindex="1" value="checkbox" checked="checked"/>
+                        Search For Employees 
+                      </td>
+
+                      <td>&nbsp;
+                      </td>
+                      <td>&nbsp;
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>&nbsp;
+                      </td>
+                      <td>
+
+                        <input name="checkbox1" type="checkbox" tabindex="2" value="checkbox" checked="checked"/>
+                        Search For Companies
+                      </td>
+                      <td>&nbsp;
+                      </td>
+                      <td>&nbsp;
+                      </td>
+                    </tr>
+                  </table>
+
+                </div>
+              </form>
+              <p>&nbsp;
+              </p>
+              <p>&nbsp;
+              </p>
+            </div>
+			<span id="bannertext">Recent Employee Reviews
+        	</span>
+            <div id="recent" class="block">
+              <p>Content for  id "recent" Goes Here
+              </p>
+              <p>&nbsp;
+              </p>
+            </div>	
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div id="copyright">
+      <div align="center">&copy;CorporateEAR.com 
+      </div>
+    </div>
+  </body>
+</html>

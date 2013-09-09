@@ -1,0 +1,181 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+ 
+<head>
+ 
+<link href="lab2.css" rel="stylesheet" type="text/css">
+ 
+<script type="text/javascript"> 
+<!--
+    var departingCell = "";
+    var departingImg = "";
+    var arrivingCell = "";
+    var arrivingImg = "";
+    var imgArray = new Array(12);
+    var celArray = new Array(12);
+
+function depart(cell) {
+
+	departingCell = document.getElementById(cell);
+	departingImg = departingCell.getAttribute("value");
+
+}//end depart function
+
+function arrive(cell) {
+
+	arrivingCell = document.getElementbyId(cell);
+	arrivingImg = arrivingCell.getAttribute("value");
+
+	swap();
+
+}//end arrive function
+
+function swap() {
+
+	
+
+}//end swap function
+
+function setStandard() {
+
+    initArrays();
+
+    for(i = 0; i < 12; i++) {
+    
+        var id = celArray[i];
+        var cell = document.getElementById(id);
+
+        cell.innerHTML= "" + imgArray[i];
+	cell.value= "" + i;
+
+    }//end for
+
+
+}//end setStandard function
+
+function initArrays() {
+
+    imgArray[0] = "<img src=\"/images/mario01.jpg\" width=\"100\" height=\"100\"></img>";
+    imgArray[1] = "<img src=\"/images/mario02.jpg\" width=\"100\" height=\"100\"></img>";
+    imgArray[2] = "<img src=\"/images/mario03.jpg\" width=\"100\" height=\"100\"></img>";
+    imgArray[3] = "<img src=\"/images/mario04.jpg\" width=\"100\" height=\"100\"></img>";
+    imgArray[4] = "<img src=\"/images/mario05.jpg\" width=\"100\" height=\"100\"></img>";
+    imgArray[5] = "<img src=\"/images/mario06.jpg\" width=\"100\" height=\"100\"></img>";
+    imgArray[6] = "<img src=\"/images/mario07.jpg\" width=\"100\" height=\"100\"></img>";
+    imgArray[7] = "<img src=\"/images/mario08.jpg\" width=\"100\" height=\"100\"></img>";
+    imgArray[8] = "<img src=\"/images/mario09.jpg\" width=\"100\" height=\"100\"></img>";
+    imgArray[9] = "<img src=\"/images/mario10.jpg\" width=\"100\" height=\"100\"></img>";
+    imgArray[10] = "<img src=\"/images/mario11.jpg\" width=\"100\" height=\"100\"></img>";
+    imgArray[11] = "<img src=\"/images/mario12.jpg\" width=\"100\" height=\"100\"></img>";
+
+    celArray[0] = "cell1";
+    celArray[1] = "cell2";
+    celArray[2] = "cell3";
+    celArray[3] = "cell4";
+    celArray[4] = "cell5";
+    celArray[5] = "cell6";
+    celArray[6] = "cell7";
+    celArray[7] = "cell8";
+    celArray[8] = "cell9";
+    celArray[9] = "cell10";
+    celArray[10] = "cell11";
+    celArray[11] = "cell12";
+
+}//end initArrays functions
+
+function scramble() {
+
+    var count = 0;
+
+    clearBoard();
+
+    while(count < 12) {
+        
+        var random = Math.floor(Math.random() * 20);//generates # from 0-19
+        var nextPlace = (5 * random) % 12;
+
+        var id = celArray[nextPlace];
+        var cell = document.getElementById(id);
+
+        if(cell.innerHTML == ".") {
+
+            	cell.innerHTML= "" + imgArray[count];
+		cell.value= "" + count;
+
+		count++;
+
+        }//end if
+    }//end for
+}//end scramble function
+ 
+function clearBoard() {
+
+  	for(i = 0; i < 12; i++) {
+    
+        	var id = celArray[i];
+        	var cell = document.getElementById(id);
+
+        	cell.innerHTML=".";
+
+    	}//end for
+
+}//end clearBoard function
+
+//-->
+</script>
+ 
+</head>
+
+<body onload="setStandard()">
+ 
+<h1 align="center">Joshua Burkhart's CS 371 Lab 4</h1>
+ 
+
+<!--nav-->
+<table  id="navtable" width="100%" align="center">
+    <tr height="7"></tr>
+    <tr id="nav">
+        <td><div><a href="http://www.corporateear.com/lab1.html"><font id="invis">__</font>Lab 1<font id="invis">__</font></a></div></td>
+        <td><div><a href="CS371Lab2.html"><font id="invis">__</font>Lab 2<font id="invis">__</font></a></div></td>
+        <td><div><a href="lab3.html"><font id="invis">__</font>lab 3<font id="invis">__</font></a></div></td>
+        <td><div><a href="lab2.css"><font id="invis">__</font>CSS Style Sheet<font id="invis">__</font></a></div></td>
+    </tr>
+ 
+<tr height="12"></tr>
+</table>
+
+<br>
+
+<table border="1" width="30%" align="center">
+    <tr>
+        <td id="cell1" value="0" onmousedown="depart("cell1")" onmouseup="arrive("cell1")" align="center">.</td>
+        <td id="cell2" value="1" onmousedown="depart("cell2")" onmouseup="arrive("cell2")" align="center">.</td>
+        <td id="cell3" value="2" onmousedown="depart("cell3")" onmouseup="arrive("cell3")" align="center">.</td>
+    </tr>
+    <tr>
+        <td id="cell4" value="3" onmousedown="depart("cell4")" onmouseup="arrive("cell4")" align="center">.</td>
+        <td id="cell5" value="4" onmousedown="depart("cell5")" onmouseup="arrive("cell5")" align="center">.</td>
+        <td id="cell6" value="5" onmousedown="depart("cell6")" onmouseup="arrive("cell6")" align="center">.</td>
+
+    </tr>
+    <tr>
+        <td id="cell7" value="6" onmousedown="depart("cell7")" onmouseup="arrive("cell7")" align="center">.</td>
+        <td id="cell8" value="7" onmousedown="depart("cell8")" onmouseup="arrive("cell8")" align="center">.</td>
+        <td id="cell9" value="8" onmousedown="depart("cell9")" onmouseup="arrive("cell9")" align="center">.</td>
+    </tr>
+    <tr>
+
+        <td id="cell10" value="9" onmousedown="depart("cell10")" onmouseup="arrive("cell10")" align="center">.</td>
+        <td id="cell11" value="10" onmousedown="depart("cell11")" onmouseup="arrive("cell11")" align="center">.</td>
+        <td id="cell12" value="11" onmousedown="depart("cell12")" onmouseup="arrive("cell12")" align="center">.</td>
+    </tr>
+    <tr>
+        <td align="center"><button onclick="scramble()">Scramble!</button></td>
+        <td></td>
+        <td align="center"><button onclick="setStandard()">Unscramble!</button></td>
+    </tr>
+</table>
+
+</body>
+
+</html> 

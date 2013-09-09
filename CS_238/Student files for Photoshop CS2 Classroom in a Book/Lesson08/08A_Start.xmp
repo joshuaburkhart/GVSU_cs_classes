@@ -1,0 +1,91 @@
+<x:xmpmeta xmlns:x='adobe:ns:meta/' x:xmptk='XMP toolkit 3.0-28, framework 1.6'>
+<rdf:RDF xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns#' xmlns:iX='http://ns.adobe.com/iX/1.0/'>
+
+ <rdf:Description rdf:about=''
+  xmlns:crs='http://ns.adobe.com/camera-raw-settings/1.0/'>
+  <crs:Version>3.0</crs:Version>
+  <crs:RawFileName>08A_Start.CRW</crs:RawFileName>
+  <crs:WhiteBalance>As Shot</crs:WhiteBalance>
+  <crs:Temperature>5900</crs:Temperature>
+  <crs:Tint>-16</crs:Tint>
+  <crs:AutoExposure>True</crs:AutoExposure>
+  <crs:Exposure>+1.05</crs:Exposure>
+  <crs:AutoShadows>True</crs:AutoShadows>
+  <crs:Shadows>2</crs:Shadows>
+  <crs:AutoBrightness>True</crs:AutoBrightness>
+  <crs:Brightness>49</crs:Brightness>
+  <crs:AutoContrast>True</crs:AutoContrast>
+  <crs:Contrast>+5</crs:Contrast>
+  <crs:Saturation>0</crs:Saturation>
+  <crs:Sharpness>25</crs:Sharpness>
+  <crs:LuminanceSmoothing>0</crs:LuminanceSmoothing>
+  <crs:ColorNoiseReduction>25</crs:ColorNoiseReduction>
+  <crs:ChromaticAberrationR>0</crs:ChromaticAberrationR>
+  <crs:ChromaticAberrationB>0</crs:ChromaticAberrationB>
+  <crs:VignetteAmount>0</crs:VignetteAmount>
+  <crs:ShadowTint>0</crs:ShadowTint>
+  <crs:RedHue>0</crs:RedHue>
+  <crs:RedSaturation>0</crs:RedSaturation>
+  <crs:GreenHue>0</crs:GreenHue>
+  <crs:GreenSaturation>0</crs:GreenSaturation>
+  <crs:BlueHue>0</crs:BlueHue>
+  <crs:BlueSaturation>0</crs:BlueSaturation>
+  <crs:ToneCurveName>Medium Contrast</crs:ToneCurveName>
+  <crs:ToneCurve>
+   <rdf:Seq>
+    <rdf:li>0, 0</rdf:li>
+    <rdf:li>32, 22</rdf:li>
+    <rdf:li>64, 56</rdf:li>
+    <rdf:li>128, 128</rdf:li>
+    <rdf:li>192, 196</rdf:li>
+    <rdf:li>255, 255</rdf:li>
+   </rdf:Seq>
+  </crs:ToneCurve>
+  <crs:CameraProfile>ACR 2.4</crs:CameraProfile>
+  <crs:HasSettings>True</crs:HasSettings>
+  <crs:HasCrop>False</crs:HasCrop>
+ </rdf:Description>
+
+ <rdf:Description rdf:about=''
+  xmlns:exif='http://ns.adobe.com/exif/1.0/'>
+  <exif:ExposureTime>1/200</exif:ExposureTime>
+  <exif:ShutterSpeedValue>7643856/1000000</exif:ShutterSpeedValue>
+  <exif:FNumber>10/1</exif:FNumber>
+  <exif:ApertureValue>6643856/1000000</exif:ApertureValue>
+  <exif:ExposureProgram>2</exif:ExposureProgram>
+  <exif:ISOSpeedRatings>
+   <rdf:Seq>
+    <rdf:li>100</rdf:li>
+   </rdf:Seq>
+  </exif:ISOSpeedRatings>
+  <exif:DateTimeOriginal>2004-10-26T07:41:40-04:00</exif:DateTimeOriginal>
+  <exif:ExposureBiasValue>0/1</exif:ExposureBiasValue>
+  <exif:MaxApertureValue>434375/100000</exif:MaxApertureValue>
+  <exif:MeteringMode>5</exif:MeteringMode>
+  <exif:Flash rdf:parseType='Resource'>
+   <exif:Fired>False</exif:Fired>
+  </exif:Flash>
+  <exif:FocalLength>37/1</exif:FocalLength>
+ </rdf:Description>
+
+ <rdf:Description rdf:about=''
+  xmlns:aux='http://ns.adobe.com/exif/1.0/aux/'>
+  <aux:SerialNumber>0860311530</aux:SerialNumber>
+  <aux:Lens>18.0-55.0 mm</aux:Lens>
+ </rdf:Description>
+
+ <rdf:Description rdf:about=''
+  xmlns:tiff='http://ns.adobe.com/tiff/1.0/'>
+  <tiff:Make>Canon</tiff:Make>
+  <tiff:Model>Canon EOS DIGITAL REBEL</tiff:Model>
+  <tiff:DateTime>2004-10-26T07:41:40-04:00</tiff:DateTime>
+  <tiff:Orientation>6</tiff:Orientation>
+ </rdf:Description>
+
+ <rdf:Description rdf:about=''
+  xmlns:xap='http://ns.adobe.com/xap/1.0/'>
+  <xap:Rating>0</xap:Rating>
+ </rdf:Description>
+
+</rdf:RDF>
+</x:xmpmeta>

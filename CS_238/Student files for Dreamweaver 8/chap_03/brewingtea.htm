@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Teacloud - About Us - Our Goal</title>
+<link href="assets/styles.css" rel="stylesheet" type="text/css" /><script type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+
+function MM_CheckFlashVersion(reqVerStr,msg){
+  with(navigator){
+    var isIE  = (appVersion.indexOf("MSIE") != -1 && userAgent.indexOf("Opera") == -1);
+    var isWin = (appVersion.toLowerCase().indexOf("win") != -1);
+    if (!isIE || !isWin){  
+      var flashVer = -1;
+      if (plugins && plugins.length > 0){
+        var desc = plugins["Shockwave Flash"] ? plugins["Shockwave Flash"].description : "";
+        desc = plugins["Shockwave Flash 2.0"] ? plugins["Shockwave Flash 2.0"].description : desc;
+        if (desc == "") flashVer = -1;
+        else{
+          var descArr = desc.split(" ");
+          var tempArrMajor = descArr[2].split(".");
+          var verMajor = tempArrMajor[0];
+          var tempArrMinor = (descArr[3] != "") ? descArr[3].split("r") : descArr[4].split("r");
+          var verMinor = (tempArrMinor[1] > 0) ? tempArrMinor[1] : 0;
+          flashVer =  parseFloat(verMajor + "." + verMinor);
+        }
+      }
+      // WebTV has Flash Player 4 or lower -- too low for video
+      else if (userAgent.toLowerCase().indexOf("webtv") != -1) flashVer = 4.0;
+
+      var verArr = reqVerStr.split(",");
+      var reqVer = parseFloat(verArr[0] + "." + verArr[2]);
+  
+      if (flashVer < reqVer){
+        if (confirm(msg))
+          window.location = "http://www.macromedia.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash";
+      }
+    }
+  } 
+}
+//-->
+</script>
+</head>
+
+<body onload="MM_preloadImages('assets/images/navigation/abouttea-over.gif','assets/images/navigation/ourproducts-over.gif','assets/images/navigation/aboutus-over.gif','assets/images/navigation/brewingtea-overdown.gif');MM_CheckFlashVersion('7,0,0,0','Content on this page requires a newer version of Macromedia Flash Player. Do you want to download it now?');">
+<table width="700" align="center" id="tableLayout">
+	<tr>
+		<td id="tdNavigation"><a href="aboutus.htm"><img src="assets/images/navigation/aboutus-out.gif" alt="About Us" name="navAboutUs" width="78" height="66" border="0" id="navAboutUs" onmouseover="MM_swapImage('navAboutUs','','assets/images/navigation/aboutus-over.gif',1)" onmouseout="MM_swapImgRestore()" /></a><a href="ourproducts.htm" onmouseover="MM_swapImage('navProducts','','assets/images/navigation/ourproducts-over.gif',1)" onmouseout="MM_swapImgRestore()"><img src="assets/images/navigation/ourproducts-out.gif" alt="Our Products" name="navProducts" width="100" height="66" border="0" id="navProducts" /></a><a href="abouttea.htm" onmouseover="MM_swapImage('navAboutTea','','assets/images/navigation/abouttea-over.gif',1)" onmouseout="MM_swapImgRestore()"><img src="assets/images/navigation/abouttea-out.gif" alt="About Tea" name="navAboutTea" width="89" height="66" border="0" id="navAboutTea" /></a><a href="brewingtea.htm" onmouseover="MM_swapImage('navBrewingTea','','assets/images/navigation/brewingtea-overdown.gif',1)" onmouseout="MM_swapImgRestore()"><img src="assets/images/navigation/brewingtea-down.gif" alt="Brewing Tea" name="navBrewingTea" width="101" height="66" border="0" id="navBrewingTea" /></a></td>
+		<td id="tdLogo">&nbsp;</td>
+	</tr>
+	<tr>
+		<td id="tdContent"><h1>Brewing Tea:Brewing Instructions
+			</h1>
+			<p><img src="assets/images/splash/aboutus.jpg" alt="" width="411" height="50" /></p>
+			<h2>View the Process of Tea Being Steeped  </h2>
+			<div id="divBrewingTea" style="float: right; margin:  1em;">
+				<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="204" height="167" id="FLVPlayer">
+					<param name="movie" value="FLVPlayer_Progressive.swf" />
+					<param name="salign" value="lt" />
+					<param name="quality" value="high" />
+					<param name="scale" value="noscale" />
+					<param name="FlashVars" value="&MM_ComponentVersion=1&skinName=Halo_Skin_2&streamName=assets/flash/brewing_300k&autoPlay=true&autoRewind=false" />
+					<embed src="FLVPlayer_Progressive.swf" flashvars="&MM_ComponentVersion=1&skinName=Halo_Skin_2&streamName=assets/flash/brewing_300k&autoPlay=true&autoRewind=false" quality="high" scale="noscale" width="204" height="167" name="FLVPlayer" salign="LT" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />				
+</object>
+			</div><p><strong>1. The Infuser</strong><br />
+			In this movie, we'll be brewing tea using what's called an infuser.</p>
+			<p><strong>2. The Tea</strong><br />
+			Make sure that you store it in an air-tight container prior to brewing. Use 1 teaspoon of loose leaf tea per cup.</p>
+			<p><strong>3. The Water</strong><br />
+		When making tea, the hot water should always be freshly boiled just before being added.		   	</p></td>
+		<td id="tdSidebar"><a href="brewingtea.htm" class="current"><img src="assets/images/navigation/bullet.gif" alt="" width="12" height="7" />Brew Instructions </a> </td>
+	</tr>
+	<tr>
+		<td colspan="2" id="tdFooter"> send us your thoughts <img src="assets/images/biegebullet.gif" alt="" width="7" height="8" /></td>
+	</tr>
+</table>
+<div id="divCopyright">Site Design by <a href="http://www.lynda.com/">lynda.com</a> (Adam and Dan)</div>
+</body>
+</html>

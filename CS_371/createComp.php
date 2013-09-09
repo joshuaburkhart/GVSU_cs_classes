@@ -1,0 +1,49 @@
+<?php
+	function insertCompany() {
+
+		$cName=str_replace(" ","_",$_GET['cName']);
+		$streetNum=str_replace(" ","_",$_GET['streetNum']);
+		$streetNme=str_replace(" ","_",$_GET['streetNme']);
+		$city=str_replace(" ","_",$_GET['city']);
+		$stateProvince=str_replace(" ","_",$_GET['stateProvince']);
+		$zipPostal=str_replace(" ","_",$_GET['zipPostal']);
+		$ipaddress=$_SERVER['REMOTE_ADDR'];
+
+		/*
+		cName  		varchar(40)  	NO  	PRI  	NULL
+		streetNum 		int(11) 		NO 		PRI 	NULL
+		streetNme 		varchar(40) 	NO 		PRI 	NULL
+		city 			varchar(40) 	NO 		PRI 	NULL
+		stateProvence 	varchar(40) 	NO 		PRI 	NULL
+		zipPostal 		char(10) 		NO 		PRI 	NULL
+		imageUrl 		varchar(40) 	YES 	  		NULL
+		timeStamp 		datetime 		YES 	  		NULL
+		uploadedBy 		char(39) 		YES 	  		NULL
+		*/
+
+		// Make a MySQL Connection
+		$user_name = 'burkhajg';
+		$password = 'SjlSjlSjl1';
+		$database = 'burkhajg';
+		$server = 'burkhajg.db.2951701.hostedresource.com';
+		$db_handle = mysql_connect($server, $user_name, $password) or die(mysql_error());
+		$db_found = mysql_select_db($database, $db_handle) or die(mysql_error());
+
+		// Insert a row of information into the table "Company"
+		mysql_query("INSERT INTO Company 
+		(cName, streetNum, streetNme, city, stateProvence, zipPostal, timestamp, uploadedBy) VALUES('$cName', '$streetNum', '$streetNme', '$city', '$stateProvince', '$zipPostal', NOW(),  '$ipaddress') ")
+		or die(mysql_error());
+
+		echo "<div class='block'>
+				<br>
+				</br>
+					Company '$cName' created successfully.
+				<br>
+				</br>
+			 </div>";
+
+		mysql_close($db_handle);//close the db connection
+
+	}//end insertCompany function
+	insertCompany();
+?>
